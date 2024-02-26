@@ -5,9 +5,6 @@ from bricknil.sensor import TrainMotor
 from bricknil.process import Process
 import logging
 
-# import pusher
-
-
 file_vitesse = "vitesse.txt"
 
 
@@ -32,7 +29,6 @@ class Train(PoweredUpHub):
 
 async def system():
     train = Train("My train")
-    # train.goto()
 
 
 if __name__ == "__main__":
